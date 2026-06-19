@@ -1,3 +1,4 @@
+# This providerFlake function recieves "self", passed from our flakeModule declaration as the aruement to providerFlake.
 providerFlake: {lib, ...}: {
   # _class = "generic";
 
