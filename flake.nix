@@ -42,6 +42,8 @@
         inputs.flake-parts-lib.flakeModules.apps
         inputs.flake-parts-lib.flakeModules.devShells
         inputs.flake-parts-lib.flakeModules.formatter
+        inputs.flake-parts-lib.flakeModules.packages
+        inputs.flake-parts-lib.flakeModules.legacyPackages
       ];
 
       imports = [
