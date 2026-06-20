@@ -4,7 +4,7 @@ let
     lib,
     ...
   }: {
-    self.lib = lib.mkOption {
+    lib = lib.mkOption {
       type = lib.types.lazyAttrsOf lib.types.deferredModule;
       default = {};
       description = ''A Schema for outputting a "lib", at the top-level of your flake'';
