@@ -63,7 +63,7 @@
       config = {
         debug = true;
         flake.flakeModule = {
-          default = ./myCustomModule.nix;
+          default = ./flakeModule.nix;
           #   {
           #   inherit
           #     (nixpkgs-lib)
